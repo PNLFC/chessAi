@@ -290,12 +290,14 @@ function makeRandomMove () {
     game.move(possibleMoves[randomIdx])
     board.position(game.fen())
     turn++;
+    updateStatus()
     window.setTimeout(makeRandomMove, 500)
   }else{
     var bestMove = getBestMove(game);
     game.move(bestMove);
     board.position(game.fen());
     turn++;
+    updateStatus()
     window.setTimeout(makeRandomMove, 250);
   }
 }
