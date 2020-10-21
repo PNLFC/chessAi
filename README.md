@@ -1,3 +1,2 @@
 # chessAi
-Deep Reinforcement learning for Chess AI
-Deep Reinforcement Learning with TDLeaf for Chess AI engine
+Deep Reinforcement Learning with Monte Carlo Tree Search for Chess AI engine
